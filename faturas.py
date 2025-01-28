@@ -14,7 +14,7 @@ navegador = webdriver.Chrome()
 navegador.get("https://rpachallengeocr.azurewebsites.net/")
 
 # Criando pasta de saída dos arquivos
-pasta_saida = "C:/Users/Vinicius/Documents/faturas"
+pasta_saida = "C:\Temp\faturas"
 os.makedirs(pasta_saida, exist_ok=True)
 
 # Criando a planilha
